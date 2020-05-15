@@ -3,7 +3,7 @@
 function get_Skills($name, $Skills)
 {
         /* Database INFO */
-	$servername = "cs.newpaltz.edu";
+	$servername = "localhost";
 	$username = "adidamv1";
 	$password = "xv1td6";
 	$dbname = "adidamv1_db";
