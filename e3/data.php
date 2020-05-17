@@ -3,10 +3,10 @@
 function get_skills($name)
 {
         /* Database INFO */
-	$servername = "wyvern.cs.newpaltz.edu";
-	$username = "adidamv1";
-	$password = "xv1td6";
-	$dbname = "adidamv1_db";
+	$servername = "ec2-3-235-24-81.compute-1.amazonaws.com";
+	$username = "deploy";
+	$password = "m8DIHSXdFX";
+	$dbname = "cloud_project";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
