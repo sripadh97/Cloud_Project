@@ -3,10 +3,10 @@
 function get_Skills($name, $Skills)
 {
         /* Database INFO */
-	$servername = "ec2-3-235-24-81.compute-1.amazonaws.com";
-	$username = "deploy";
-	$password = "m8DIHSXdFX";
-	$dbname = "cloud_project";
+	$servername = "localhost";
+	$username = "adidamv1";
+	$password = "xv1td6";
+	$dbname = "adidamv1_db";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
