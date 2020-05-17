@@ -15,7 +15,7 @@ function get_Skills($name)
             die("Connection failed: " . $conn->connect_error);
        }
 
-       $sql = "SELECT Skills FROM Enterprise WHERE Technology='$name'";
+       $sql = "SELECT Skills FROM Company WHERE Technology='$name'";
        $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
