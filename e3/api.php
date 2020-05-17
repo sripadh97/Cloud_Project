@@ -5,15 +5,15 @@ require "data.php";
 if(!empty($_GET['name']))
 {
 	$name=$_GET['name'];
-	$skills = get_skills($name);
+	$Skills = get_Skills($name);
 	
-	if(empty($skills))
+	if(empty($Skills))
 	{
 		response(200,"Technology Not Available",NULL);
 	}
 	else
 	{
-		response(200,"Technology Available",$skills);
+		response(200,"Technology Available",$Skills);
 	}	
 }
 else
